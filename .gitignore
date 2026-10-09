@@ -1,0 +1,19 @@
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Hugo generated output
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# Locally downloaded Hugo executables and archives
+/hugo
+/hugo.exe
+/hugo.darwin
+/hugo.linux
+*.tar.gz
+
+# Keep content/ and static/images/ tracked.
